@@ -1,6 +1,6 @@
 package assigment;
 import java.util.Scanner;
-public class question5 {
+public class question6 {
 	static void convertOpposite(StringBuffer str) {
 		int ln = str.length();
 
@@ -17,11 +17,11 @@ public class question5 {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter String : ");
 		String str = sc.next();
-		StringBuffer Bf = new StringBuffer();
-		Bf.append(str);
-		convertOpposite(Bf);
+		StringBuffer buffer = new StringBuffer();
+		buffer.append(str);
+		convertOpposite(buffer);
 
-		System.out.println(Bf);
+		System.out.println(buffer);
 	}
 
 }
